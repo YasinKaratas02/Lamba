@@ -1,0 +1,35 @@
+a{
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 15px 70px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+img{
+    margin: 15px;
+}
+
+input{
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 10px 30px;
+    margin: 15px;
+    border-radius: 50px;
+}
+
+a:hover{
+    box-shadow: 7px 7px;
+    transition: 0.5s;
+}
+
+input:hover{
+    box-shadow: 4px 4px;
+    transition: 0.3s;
+}

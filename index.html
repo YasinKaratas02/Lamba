@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamba</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+</head>
+<body>
+
+    <center>
+    <form>
+        <input type="button" value="Siyah" onclick="changeColor('black')">
+        <input type="button" value="Beyaz" onclick="changeColor('white')">
+    </form>
+    </center>
+
+    <center>
+    <br><br>
+
+    <a href="#" onclick="document.getElementById('lamba').src = 'lamba_acik.jpg' ">Aç</a>
+    <a href="#" onclick="document.getElementById('lamba').src = 'lamba_kapali.jpg' ">Kapat</a>
+
+    <br><br><br>
+
+    <img id="lamba" src="lamba_kapali.jpg" >
+
+</center>
+
+</body>
+</html>
